@@ -5,7 +5,7 @@ def main():
 
     match priority:
         case "high":
-            print(f"Reminder: '{task}' is a high priority task", end = "")
+            print(f"Reminder: '{task}' is a high priority task", end="")
         case "medium":
             print(f"Reminder: '{task}' is a medium priority task", end="")
         case "low":

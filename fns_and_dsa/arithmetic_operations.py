@@ -1,13 +1,16 @@
-def perform_operation(x,y,operation):
+def perform_operation(num1,num2,operation):
+    if (operation == 'divide' and num2 == 0):
+        return "can not divide by zero"
+
     match operation:
         case 'add':
-            return x+y
+            return num1+num2
         case 'subtract':
-            return x-y
+            return num1-num2
         case 'multiply':
-            return x*y
+            return num1*num1
         case 'divide':
-            return x/y
+            return num1/num2
 
 
 

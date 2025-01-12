@@ -12,7 +12,7 @@ def perform_operation(num1, num2, operation):
         case "subtract":
             return num1 - num2
         case "multiply":
-            multi = num1 * num1
+            multi = num1 * num2
             return multi
         case "divide":
             return num1 / num2

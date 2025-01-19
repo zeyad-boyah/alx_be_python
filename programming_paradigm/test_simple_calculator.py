@@ -21,9 +21,9 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_division(self):
         # with self.assertRaises(ZeroDivisionError):
         #     self.calc.divide(5, 0)
-        self.assertEqual(self.calc.divide(5,0), None)
+        self.assertEqual(self.calc.divide(5, 0), None)
         self.assertEqual(self.calc.divide(4, 2), 2)
-    
+
     def test_subtraction(self):
-        self.assertEqual(self.calc.subtract(5,0), 5)
-        self.assertEqual(self.calc.subtract(5,2), 3)
+        self.assertEqual(self.calc.subtract(5, 0), 5)
+        self.assertEqual(self.calc.subtract(5, 2), 3)

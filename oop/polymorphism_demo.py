@@ -16,7 +16,8 @@ class Rectangle(Shape):
         self.width = float(width)
 
     def area(self):
-        return self.length * self.width
+        rectangle_area = self.length * self.width
+        return int(rectangle_area)
 
 
 class Circle(Shape):
